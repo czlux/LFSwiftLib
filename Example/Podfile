@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LFSwiftLib_Example' do
+  pod 'LFSwiftLib', :path => '../'
+
+  target 'LFSwiftLib_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
