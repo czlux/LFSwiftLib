@@ -1,0 +1,22 @@
+{
+  "name": "LFSwiftLib",
+  "version": "0.1.0",
+  "summary": "A short description of LFSwiftLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liulinfan/LFSwiftLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liulinfan": "361087115@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/liulinfan/LFSwiftLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LFSwiftLib/Classes/**/*"
+}

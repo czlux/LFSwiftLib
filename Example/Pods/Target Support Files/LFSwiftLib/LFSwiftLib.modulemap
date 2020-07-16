@@ -1,0 +1,6 @@
+framework module LFSwiftLib {
+  umbrella header "LFSwiftLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
