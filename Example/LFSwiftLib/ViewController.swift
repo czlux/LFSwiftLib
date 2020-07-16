@@ -7,11 +7,17 @@
 //
 
 import UIKit
-
+import LFSwiftLib
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let a = Person()
+        a.name = "llf"
+        a.age = 30
+        a.printPerson()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
